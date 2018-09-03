@@ -6,6 +6,10 @@
   font-family: 'Verdana'
 }
 
+.sub-title-modify {
+  color: green;
+}
+
 .button {
   padding: 10px;
   border-radius: 5px;
@@ -30,6 +34,19 @@
   grid-column-gap: 50px;
   justify-content: space-around;
   align-content: space-evenly
+}
+
+.grid-container-users {
+  display: grid;
+  grid-template-columns: auto;
+  grid-column-gap: 20px;
+  justify-content: left;
+  /* align-content: space-evenly; */
+}
+
+.grid-item {
+  margin-left: 25px;
+  margin-bottom: 10px;
 }
 
 .user {

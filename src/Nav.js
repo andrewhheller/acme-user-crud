@@ -14,7 +14,6 @@ const Nav = ({ users }) => {
       <Link to="users/create">
         <button className="button" >Add a User</button>
       </Link>
-      <hr />
     </div>
   )
 

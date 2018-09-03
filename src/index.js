@@ -68,6 +68,8 @@ class App extends Component {
       <Router>
         <div>
           <Nav users={users} />
+          <br />
+          <hr />
           <Route exact path="/" render = {() => <Home users={users} />} />
           <Switch>
             <Route path="/users/create" render = {({ history }) => <CreateUser addUser={this.addUser} history={history}/> }/>

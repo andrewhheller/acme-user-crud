@@ -30,12 +30,13 @@ class CreateUser extends Component {
 
     return (
       <div>
-        <h2 className="sub-title" >Create User</h2>
+        <h2 className="sub-title sub-title-modify" >Create User</h2>
         <form onSubmit={this.handleSubmit}>
           <label htmlFor="name">Name:</label>
           <input className="input-box" type="text" name="name" onChange={this.handleChange}/>
           <button className="addEdit-user" disabled={!name} type="submit">Add</button>
         </form>
+        <hr />
       </div>
     )
   }

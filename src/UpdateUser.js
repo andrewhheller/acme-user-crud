@@ -43,12 +43,13 @@ class UpdateUser extends Component {
 
     return (
       <div>
-        <h2 className="sub-title">Update User</h2>
+        <h2 className="sub-title sub-title-modify">Update User</h2>
         <form onSubmit={this.handleSubmit}>
           <label htmlFor="name">Name: </label>
           <input className="input-box" type="text" name="name" value={name} onChange={this.handleChange}/>
           <button className="addEdit-user" type="submit">Update</button>
         </form>
+        <hr />
       </div>
     )
   }
