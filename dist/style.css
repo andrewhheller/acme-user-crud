@@ -20,11 +20,15 @@
   font-size: 18px
 }
 
+.button::-moz-focus-inner {
+  border: 0;
+}
+
 .button:hover {
   cursor: pointer;
 }
 
-.button:focus {
+.selected {
   border: 2px solid black;
 }
 
