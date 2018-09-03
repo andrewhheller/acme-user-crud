@@ -1,0 +1,67 @@
+.title {
+  font-family: 'Verdana'
+}
+
+.sub-title {
+  font-family: 'Verdana'
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  border: 1px solid black;
+  color: white;
+  font-family: Verdana;
+  font-size: 18px
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:focus {
+  border: 2px solid black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 50px;
+  justify-content: space-around;
+  align-content: space-evenly
+}
+
+.user {
+  list-style: none;
+}
+
+.input-box {
+  margin-left: 10px;
+}
+
+.addEdit-user {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+}
+
+.addEdit-user:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+.remove-user {
+  float: right;
+  padding: 0px 40px;
+  background-color: red;
+  color: white;
+  font-family: Verdana;
+  font-size: 12px
+}
+
+.remove-user:hover {
+  cursor: pointer;
+}
